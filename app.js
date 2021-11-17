@@ -15,3 +15,17 @@ function getSquares()
 }}
 
 getSquares();
+
+//get color through event listener 
+function colorGrid(target) {
+    target.style.backgroundColor = 'white';
+  }
+  gridContainer.addEventListener('mouseover', function (e){
+    target = e.target;
+    colorGrid(target);
+  });
+  
+  
+  
+  
+  
