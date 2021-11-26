@@ -1,5 +1,5 @@
 * {
-    background: white;
+    background:white;
   }
   
   .grid {
@@ -8,3 +8,26 @@
     grid-template-rows: repeat(16, 1fr);
     gap: 10px;
   }
+
+  #reset {
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #000000;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight:1000;
+    color:#6fade7;
+    text-align:center;
+    transition: all 0.15s;
+    }
+    #reset:hover{
+    color:#727272;
+    border-color:#000000;
+    }
+    #reset:active{
+    color:#727272;
+    border-color:#000000;
+    }

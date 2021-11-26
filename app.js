@@ -25,7 +25,11 @@ function colorGrid(target) {
     colorGrid(target);
   });
   
+  document.getElementById('reset').addEventListener('click', resetSquares);
   
-  
-  
-  
+
+  function resetSquares() {
+
+    var gridPixels = gridContainer.querySelectorAll('div');
+    gridPixels.forEach(gridPixel => gridPixel.style.backgroundColor = '#808080');
+  }
